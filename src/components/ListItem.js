@@ -3,9 +3,6 @@ import React from 'react';
 
 export default function ListItem(props) {
   const {text, onRemove, id} = props;
-  const removeHandler = () => {
-    console.warn('Removed!');
-  };
   return (
     <View style={styles.listItem}>
       <Pressable
